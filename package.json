@@ -15,7 +15,7 @@
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   },
-  "dependencies": {
-    "signal-exit": "^4.1.0"
+  "engines": {
+    "npm": ">=10.3.0"
   }
 }

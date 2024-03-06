@@ -2,8 +2,8 @@ services:
   api:
     build:
       dockerfile: ./Dockerfile
-    # command: 'tsx ./scripts/run.ts'
-    command: 'tsx ./scripts/run.js'
+    command: 'tsx ./scripts/run.ts'
+    # command: 'tsx ./scripts/run.js'
     working_dir: /usr/local/app
     volumes:
       - ./:/usr/local/app
