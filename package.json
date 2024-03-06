@@ -1,0 +1,21 @@
+{
+  "name": "windows-tsx-watch-bug",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "signal-exit": "^4.1.0"
+  }
+}

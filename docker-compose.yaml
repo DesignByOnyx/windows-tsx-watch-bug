@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      dockerfile: ./Dockerfile
+    # command: 'tsx ./scripts/run.ts'
+    command: 'tsx ./scripts/run.js'
+    working_dir: /usr/local/app
+    volumes:
+      - ./:/usr/local/app
+      - api_node_modules:/usr/local/app/node_modules
+
+volumes:
+  api_node_modules:
